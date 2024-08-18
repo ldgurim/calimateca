@@ -1,1 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Upload Form</title>
+</head>
+<body>
+    <h1>Record and Upload Video</h1>
+    <video id="video" width="640" height="480" autoplay></video>
+    <button id="start">Record</button>
+    <button id="stop">Stop</button>
+    <form id="uploadForm" action="/upload" method="post" enctype="multipart/form-data">
+        <input type="file" id="videoFile" name="videoFile" accept="video/*" style="display: none;">
+        <button type="submit">Upload Video</button>
+    </form>
+    <script src="app.js"></script>
+</body>
+</html>
 
