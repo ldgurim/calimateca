@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 200px;
+    padding: 100px;
+    background-color: aquamarine;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px; /* Optional: Adds space between columns */
+    padding: 20px;
+}
+
+.column {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
